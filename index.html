@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  html {
+  scroll-behavior: smooth;
+}
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aryan Mishra | Official Website</title>
+  section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#about {
+  background: #111;
+  box-shadow: 0 0 30px rgba(255,204,0,0.2);
+  margin-bottom: 40px;
+}
+
+#features {
+  background: #222;
+  box-shadow: 0 0 30px rgba(255,204,0,0.2);
+  margin-bottom: 40px;
+}
+
+#contact {
+  background: #111;
+  box-shadow: 0 0 30px rgba(255,204,0,0.2);
+  margin-bottom: 60px;
+}
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
     body {
@@ -26,24 +56,27 @@
       margin-bottom: 10px;
     }
     h2 {
-      font-weight: 300;
-      font-size: 1.2rem;
-      color: #ccc;
-      margin-bottom: 30px;
+      font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
     }
     .btn {
       background: #ffcc00;
-      color: #000;
-      padding: 12px 25px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
+  color: #000;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
     }
     .btn:hover {
-      background: #fff;
-      color: #000;
-      box-shadow: 0 0 15px #ffcc00;
+     background: #fff;
+  color: #000;
+  box-shadow: 0 0 25px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
+}
     }
     footer {
       position: absolute;
@@ -51,6 +84,21 @@
       font-size: 0.9rem;
       color: #555;
     }
+    section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(255,204,0,0.2);
+}
+
+section:hover {
+  box-shadow: 0 0 40px rgba(255,204,0,0.5);
+  transform: scale(1.01);
+  transition: all 0.4s ease;
+}
+
   </style>
 </head>
 <body>
