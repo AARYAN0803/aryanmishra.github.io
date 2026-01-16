@@ -1,134 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  html {
-  scroll-behavior: smooth;
-}
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aryan Mishra | Official Website</title>
-  section {
-  padding: 80px 20px;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 10px;
-}
-
-#about {
-  background: #111;
-  box-shadow: 0 0 30px rgba(255,204,0,0.2);
-  margin-bottom: 40px;
-}
-
-#features {
-  background: #222;
-  box-shadow: 0 0 30px rgba(255,204,0,0.2);
-  margin-bottom: 40px;
-}
-
-#contact {
-  background: #111;
-  box-shadow: 0 0 30px rgba(255,204,0,0.2);
-  margin-bottom: 60px;
-}
-
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
       background: radial-gradient(circle at center, #0a0a0a, #000);
       color: #f5f5f5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
     }
+
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #ffcc00;
-      margin-bottom: 10px;
+      margin-top: 60px;
     }
+
     h2 {
       font-size: 2rem;
-  color: #ffcc00;
-  margin-bottom: 20px;
-  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+      color: #ffcc00;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
     }
+
     .btn {
       background: #ffcc00;
-  color: #000;
-  padding: 15px 35px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.1rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+      color: #000;
+      padding: 15px 35px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
     }
-    .btn:hover {
-     background: #fff;
-  color: #000;
-  box-shadow: 0 0 25px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
-}
-    }
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #555;
-    }
-    section {
-  padding: 80px 20px;
-  max-width: 900px;
-  margin: 40px auto;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 30px rgba(255,204,0,0.2);
-}
 
-section:hover {
-  box-shadow: 0 0 40px rgba(255,204,0,0.5);
-  transform: scale(1.01);
-  transition: all 0.4s ease;
-}
+    .btn:hover {
+      background: #fff;
+      color: #000;
+      box-shadow: 0 0 25px #ffcc00, 0 0 50px #ffcc00, 0 0 75px #ffcc00;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(255,204,0,0.2);
+    }
+
+    section:hover {
+      box-shadow: 0 0 40px rgba(255,204,0,0.5);
+      transform: scale(1.01);
+      transition: all 0.4s ease;
+    }
+
+    #about { background: #111; }
+    #features { background: #222; }
+    #contact { background: #111; }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
 
   </style>
 </head>
 <body>
+
   <h1>Aryan Mishra</h1>
   <h2>Official Personal Website | Aryan Mishra</h2>
-  <a href="#" class="btn">Explore More (Coming Soon)</a>
-<nav>
-  <a href="#about">About</a>
+  <a href="#about" class="btn">Explore More</a>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Aryan Mishra — a tech enthusiast, learner, and creator.  
+       This site is my digital space where I share ideas, creativity, and projects I’m working on.</p>
+  </section>
+
   <section id="features">
-  <h2>Features</h2>
-  <p>💡 Clean, modern design<br>
-     ⚙️ Built entirely with HTML, CSS, and GitHub Pages<br>
-     🌐 Fast and hosted for free</p>
-</section>
+    <h2>Features</h2>
+    <p>💡 Clean, modern design<br>
+       ⚙️ Built entirely with HTML, CSS, and GitHub Pages<br>
+       🌐 Fast and hosted for free</p>
+  </section>
 
-  <a href="#features">Features</a>
   <section id="contact">
-  <h2>Contact</h2>
-  <p>Reach out for collaboration or ideas!</p>
-  <p>Email: <a href="mailto:contact@aryanmishra.in" style="color:#ffcc00;">contact@aryanmishra.in</a></p>
-</section>
+    <h2>Contact</h2>
+    <p>Reach out for collaboration or ideas!</p>
+    <p>Email: <a href="mailto:contact@aryanmishra.in" style="color:#ffcc00;">contact@aryanmishra.in</a></p>
+  </section>
 
-  <a href="#contact">Contact</a>
-</nav>
-<section id="about">
-  <h2>About Me</h2>
-  <p>Hi, I’m Aryan Mishra — a tech enthusiast, learner, and creator.  
-     This site is my digital space where I share ideas, creativity, and projects I’m working on.</p>
-</section>
-<footer>© 2026 Aryan Mishra. All rights reserved.</footer>
+  <footer>© 2026 Aryan Mishra. All rights reserved.</footer>
+
 </body>
 </html>
-
